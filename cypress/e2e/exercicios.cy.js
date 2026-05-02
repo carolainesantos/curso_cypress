@@ -1,4 +1,4 @@
-describe("Lista de exercicios", () => {
+describe("Lista de exercicios, exercicios para fixação", () => {
   it("Exercício 1: Visitar a página do AdoPet e clicar no botão 'Ver pets disponíveis para adoção'", () => {
     cy.visit("https://adopet-frontend-cypress.vercel.app/");
     cy.contains("a", "Ver pets disponíveis para adoção").click();
